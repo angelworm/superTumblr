@@ -21,11 +21,11 @@ window.setInterval(function() {
 //		console.log(h);
 		
 		el[i].style.display = "list-item";
-		el[i].style["max-height"] = "1000000px !important";
-		el[i].style.height = h + "px";
-		el[i].style.border = 0;
-		el[i].style.padding = 0;
-		
+//		el[i].style["max-height"] = "1000000px";
+//		el[i].style.height = h + "px";
+		el[i].style.height = 0 + "px";
+		el[i].style.padding = 0;		
+		el[i].style["padding-top"] = h + "px";		
 		
 		var e = el[i].firstChild,tmp = e;
 		while(e = tmp) {
